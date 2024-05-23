@@ -1,0 +1,19 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(213, 213, 213);
+    height: 140px;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+.icons :is(a){
+    color: black;
+    cursor: pointer;
+    font-size: 2rem;
+    text-decoration: none;
+}

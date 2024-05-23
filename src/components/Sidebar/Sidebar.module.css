@@ -1,0 +1,71 @@
+.sidebarContent{
+  align-self: end;
+  border-right: 1px solid #ffffffa9;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  height: 83vh;
+  left: 0;
+  transform-origin: left;
+  transition: 0.4s ease-in-out;
+  overflow-y: auto;
+  width: 150px;
+}
+
+.sidebarContent h3{
+  margin: 0;
+}
+.sidebarContainer {
+  align-self: end;
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  height: 83vh;
+  left: 0;
+  overflow-y: auto;
+}
+.activeSidebar {
+  left: 0;
+}
+.sidebarTitle{
+  background-color: rgba(113, 192, 146, 0.634);
+  color: white;
+  padding: 10px;
+  margin-top: 10px; 
+}
+.sidebarItems {
+  align-self: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+  'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  width: 80%;
+}
+.sidebarItems p{
+  cursor: pointer;
+}
+
+@media screen and (max-width: 980px ) {
+
+  .sidebarContent{
+    width: 110px;
+  }
+  .sidebarContent h3{
+    font-size: 1rem;
+  }
+  .sidebarItems{
+    font-size: 1rem;
+  }
+
+}
+
+@media screen and (max-width: 768px ) {
+  .sidebarContent{
+    height: 86vh;
+  }
+}

@@ -1,0 +1,16 @@
+.homePage {
+  display: flex;
+   min-height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sidebarButton{
+    position: absolute;
+    top: 120px;
+    color: #ffffffe2;
+    font-size: 3.4rem;
+}

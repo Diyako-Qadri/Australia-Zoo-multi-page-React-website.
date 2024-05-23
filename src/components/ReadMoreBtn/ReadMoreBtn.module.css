@@ -1,0 +1,9 @@
+.readMoreBtn{
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+
+}

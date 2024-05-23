@@ -1,0 +1,15 @@
+.header {
+  background-color: rgb(6, 56, 43);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: px;
+
+}
+
+@media screen and (max-width: 980px ) {
+  img{
+    width: 100px;
+  }
+}

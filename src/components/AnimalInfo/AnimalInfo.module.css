@@ -1,0 +1,103 @@
+.animalInfoContainer {
+ 
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 3px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.ImageAndFactsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.animalImage {
+  border-radius: 10px;
+  flex: 0 0 calc(38% - 12px);
+  
+  width: 130px;
+}
+
+.animalFact {
+  font-size: 1.2rem;
+  font-weight: 400;
+  flex: 0 0 calc(45% - 12px);
+  text-align: start;
+}
+
+.animalDescription {
+  font-size: 1.2rem;
+  margin: 0 5px;
+  line-height: 25px;
+  word-spacing: 2px;
+}
+
+.buttonContainer {
+  padding: 10px;
+}
+
+.readLessBtn {
+  background-color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 980px) {
+  .animalInfoContainer {
+    max-height: 85vh;
+    overflow-y: auto;
+  }
+
+  .ImageAndFactsContainer {
+    display: flex;
+    gap: 20px;
+  }
+
+  .name {
+    font-size: 1.1rem;
+  }
+
+  .animalImage {
+    border-radius: 0;
+    height: 40%;
+    width: 50%;
+  }
+
+  .animalFact {
+    flex: 0 0 calc(45% - 12px);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .animalDescription {
+    font-size: 1rem;
+    margin: 0 15px;
+    word-spacing: 2px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .ImageAndFactsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .name {
+    font-size: 1.1rem;
+  }
+  
+  .animalImage {
+    border-radius: 0;
+    height: 40%;
+    width: 100%;
+  }
+}
